@@ -1,0 +1,20 @@
+export type Promotion = {
+  promoMarketTextLong: string;
+  marketTextLong: string;
+  hasPriority: boolean;
+  weightProduct: boolean;
+  promoComparePricePerUnit: number | null;
+  type: number;
+  trumfCampaign: boolean;
+  promoCalcPricePerUnit: number | null;
+  promotionId: number;
+  tags: string[];
+  promoName: string;
+  alternativePrice: number | null;
+  comparablePrice: number | null;
+  isMarketed: boolean;
+  name: string;
+  from: string;
+  to: string;
+  status: number;
+};
